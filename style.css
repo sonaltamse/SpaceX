@@ -1,0 +1,167 @@
+body{
+    margin: 0px;
+    padding: 0;
+}
+
+.navbar{
+    box-sizing: border-box;
+    display: flex;        
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(54, 54, 55);
+}
+
+.navbar_list li,a,ul{
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    padding: 8px;
+    color: azure;
+    display: inline;
+    width: 100%;
+    position: sticky;
+}
+
+.shop{
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.logo img{
+    margin: 0px;
+    padding:0;    
+    filter: brightness(2);
+}
+.banner img{
+    height: 800px;
+    width: 100%;
+    filter: brightness(1);       
+}
+#banner_content1{
+  position: absolute;
+  bottom: 205px;
+  font-style: italic;
+  left: 16px;
+  padding-left: 3px;
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium';
+  color: black;
+}
+#banner_content2{
+  position: absolute;
+  bottom: 90px;
+  left: 16px;
+  font-size: 40px;
+  font-family: 'Franklin Gothic Medium';
+  color:white;
+}
+
+.launch{  
+    padding: 2px;
+    background-color: rgb(168, 166, 166);
+    display: flex;
+}
+.launch img{
+    margin:0px 2px;    
+  border-radius: 25px;
+}
+
+.launch p{
+    padding: 2px 15px 8px;
+    font-style:italic;
+    text-align: justify;
+    font-family:'Arial Narrow Bold';
+    font-weight: bolder;
+    font-size: large;
+    color: white;
+}
+
+
+.falcon_img img{
+    filter: brightness(2);
+    filter: contrast(1);
+    height: 800px;
+    width: 100%;
+    margin: 0px;
+}
+#falcon_content1{
+  position: absolute;
+  bottom: 340px;
+  left: 46%; 
+  font-size: 40px;
+  font-family: 'Franklin Gothic Medium';
+  color: black;
+}
+#falcon_content2{
+    position: absolute;
+    bottom: 300px;
+    left: 46%; 
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium';
+    color: black;
+  }
+
+  .falcon_info{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2px;
+    background-color: rgb(47, 45, 45);
+  }
+  .falcon_info img{ 
+    height: 500px;
+    width: 600px;
+    margin: 10px;
+    filter: brightness(1.2);
+    /*filter: contrast(0.8); */
+    border-radius: 10px;
+  }
+
+.falcon_info h1{
+    margin-left: 30px;
+    font-size: 40px;
+    color: white;
+    font-style: italic;
+}
+
+#heavy_content1{
+  position: absolute;
+  bottom: 50px;
+  color: white;
+  font-size: 50px;
+  font-family: 'Franklin Gothic Medium';
+  color: black;
+  padding-left: 40px;
+}
+
+.heavy img{ 
+  height: 600px;
+  width: 600px;
+  padding: 25px 20px;
+  filter: brightness(1.9);
+  filter: contrast(1);
+  border-radius: 45px;
+}
+
+.heavyContent p{
+  font-size: 20px;
+  font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 20px;
+  color: white;  
+}
+
+#dragon_content1{
+  position: absolute;
+  bottom: 250px;
+  color: white;
+  font-size: 35px;
+  font-family: 'Franklin Gothic Medium';  
+  padding-left: 40px;
+}
+
+.astro img{
+  width: 450px;
+  height: 490px;
+  padding: 10px 20px;
+  border-radius: 45px;
+}
+
